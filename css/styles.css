@@ -13,6 +13,15 @@
     margin: 0 auto;
 }
 
+.faq-top{
+    width: 410px;
+    margin: 0 auto;
+}
+.faq {
+    width: 740px;
+    margin: 0 auto;
+}
+
 /* Tablet device  */
 @media only screen and (min-width:688px) and (max-width:992px) {
 
@@ -21,6 +30,12 @@
     }
     .carouser-desc h2{
         font-size: 40px;
+    }
+    .faq-top{
+        width: 100%;
+    }
+    .faq {
+        width: 100%;
     }
 }
 
@@ -36,5 +51,14 @@
 
     .carouser-desc p{
         font-size: 12px;
+    }
+    .course-img {
+        width: 100%;
+    }
+    .faq-top{
+        width: 100%;
+    }
+    .faq {
+        width: 100%;
     }
 }
