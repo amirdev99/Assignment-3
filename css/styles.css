@@ -1,0 +1,40 @@
+.carouser-desc{
+    bottom: 12.5rem;
+}
+.carouser-desc h2{
+    font-size: 65px;
+}
+.carouser-desc p{
+    font-size: 18px;
+}
+
+.course-top {
+    width: 380px;
+    margin: 0 auto;
+}
+
+/* Tablet device  */
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .carouser-desc{
+        bottom: 5.5rem;
+    }
+    .carouser-desc h2{
+        font-size: 40px;
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .carouser-desc{
+        bottom: 0rem;
+    }
+
+    .carouser-desc h2{
+        font-size: 20px;
+    }
+
+    .carouser-desc p{
+        font-size: 12px;
+    }
+}
