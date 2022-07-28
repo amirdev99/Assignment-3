@@ -1,5 +1,11 @@
+.carousel-bg{
+    background-color: black;
+}
+.carousel-bg img{
+    opacity: .5;
+}
 .carouser-desc{
-    bottom: 12.5rem;
+    bottom: 7.5rem;
 }
 .carouser-desc h2{
     font-size: 65px;
@@ -20,6 +26,16 @@
 .faq {
     width: 740px;
     margin: 0 auto;
+}
+
+i.fa-brands {
+    background: #443535a8;
+    color: #fff;
+    padding: 14px;
+    margin-right: 7px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 
 /* Tablet device  */
